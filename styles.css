@@ -72,6 +72,7 @@ body{
 
 .box{
     position: absolute;
+    bottom: 80px;
     display: flex ;
     height: 100px;
     width: 100px;
@@ -82,5 +83,21 @@ body{
 
 .box b{
     letter-spacing: 3px;
-    color: violet;
+    color: var(--clr);
+    font-size: xx-large;
+}
+
+.text{
+    position:absolute;
+    left: 600px;
+    bottom: 500px;
+    
+
+
+}
+
+.logo{
+    position: absolute;
+    left: 700px;;
+    bottom:auto ;
 }
